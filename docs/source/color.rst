@@ -15,6 +15,8 @@ The functions in this section perform various color space conversions.
 .. autofunction:: bgr_to_rgb
 .. autofunction:: rgb_to_yuv
 .. autofunction:: yuv_to_rgb
+.. autofunction:: rgb_to_lab
+.. autofunction:: lab_to_rgb
 .. autofunction:: rgb_to_rgba
 .. autofunction:: bgr_to_rgba
 .. autofunction:: rgba_to_rgb
@@ -41,6 +43,8 @@ The functions in this section perform various color space conversions.
 .. autoclass:: BgrToRgb
 .. autoclass:: RgbToYuv
 .. autoclass:: YuvToRgb
+.. autoclass:: RgbToLab
+.. autoclass:: LabToRgb
 .. autoclass:: RgbToRgba
 .. autoclass:: BgrToRgba
 .. autoclass:: RgbaToRgb
