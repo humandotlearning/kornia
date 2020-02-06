@@ -14,6 +14,7 @@ from .ycbcr import RgbToYcbcr, rgb_to_ycbcr
 from .ycbcr import YcbcrToRgb, ycbcr_to_rgb
 from .yuv import RgbToYuv, YuvToRgb, rgb_to_yuv, yuv_to_rgb
 from .xyz import RgbToXyz, XyzToRgb, rgb_to_xyz, xyz_to_rgb
+from .lab import RgbToLab, LabToRgb, rgb_to_lab, lab_to_rgb
 from .normalize import Normalize, normalize, Denormalize, denormalize
 from .core import add_weighted, AddWeighted
 from .adjust import (
@@ -39,6 +40,8 @@ __all__ = [
     "ycbcr_to_rgb",
     "rgb_to_yuv",
     "yuv_to_rgb",
+    "rgb_to_lab",
+    "lab_to_rgb",
     "rgb_to_xyz",
     "xyz_to_rgb",
     "normalize",
